@@ -14,12 +14,12 @@ The count of retiring employees by title was added to the **retiring_titles** ta
 |:--:|
 |Fig 2. Count of the retiring employees by title(retiring_titles.csv)|
 
- The employees eligible for the mentorship program were fetched using joins and DISTINCT ON() function and loaded into the **mentorsip_eligibility** table (https://github.com/chinzjay/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv).
+ The employees eligible for the mentorship program were fetched using joins and DISTINCT ON() function and loaded into the **mentorship_eligibility** table (https://github.com/chinzjay/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv).
  
 The following analysis were made from the new tables.
- - 1,33,777 records(retiring employees) were retrieved when filtered based on the retirement criteria.
+ - 133,777 records(retiring employees) were retrieved when filtered based on the retirement criteria.
  - When filtered by the unique titles; 90,399 records were retrieved.
- - Employees with 7 unique titles are retiring.
+ - Employees with 7 unique titles are retiring (*Fig 2*).
  - The most number of employees retiring are of the titles Senior Engineer and Senior Staff.
  - 1549 employees were found eligible for the mentorship program.
  
