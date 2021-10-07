@@ -1,6 +1,6 @@
 # Pewlett-Hackard-Analysis
 ## Overview 
-The purpose of this project is to gather information about the retiring employees so that the management can prepare for the “silver tsunami” and to identify the employees who are eligible for the mentorship program by using SQL queries.
+The project is focused on helping the management prepare for the “Silver Tsunami” by gathering information about the retiring employees and identifying the employees who are eligible for the mentorship program using SQL queries.
 
 ## Results
 Using SQL, a **retirement_titles** table (https://github.com/chinzjay/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv) was created and the list of retiring employees were added. Using the DISTINCT ON(), COUNT() functions and GROUPBY clause , the list of most recent title of the retiring employee was fetched and added to the **unique_titles** (https://github.com/chinzjay/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv). *Fig 1* depicts the code snippet that was used to retrieve the unique titles of the retiring employees.
